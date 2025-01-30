@@ -11,4 +11,5 @@ elif 25 <= imc < 29.9:
     categorie = "Surpoids"
 else:
     categorie = "Obésité"
+    
 print(f"Votre IMC est de {imc:.2f}. Catégorie: {categorie}")
