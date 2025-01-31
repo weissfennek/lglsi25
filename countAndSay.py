@@ -22,4 +22,4 @@ def count_and_say(n):
     return current
 
 
-print(count_and_say(8))
+
