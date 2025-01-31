@@ -6,4 +6,8 @@ public class TestPoint {
 		System.out.println(p1.move(2.1, 3.1));
 		System.out.println("la distance est"+p1.distance(p));
 	}
+<<<<<<< HEAD
 	
+=======
+	
+>>>>>>> 2901af8ee6489f132c3da951d0409ae30bfeaa85
