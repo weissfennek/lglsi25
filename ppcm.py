@@ -1,8 +1,7 @@
-def is_prime(n):
-    """Checks if a number is prime."""
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
+import math
+
+def ppcm(a, b):
+    """Returns the least common multiple (LCM) of two numbers."""
+    if a == 0 or b == 0:
+        return 0  # LCM of 0 and any number is 0
+    return abs(a * b) // math.gcd(a, b)  # Using GCD to calculate LCM
