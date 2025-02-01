@@ -1,7 +1,7 @@
 import pytest
 from perfect import is_perfect
 def test_perfect_number():
-    # Test known perfect numbers
+
     assert is_perfect(6) == True    
     assert is_perfect(28) == True   
     assert is_perfect(496) == True  
