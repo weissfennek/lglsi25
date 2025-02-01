@@ -10,7 +10,7 @@ def test_combination_notallowed():
         comb(3,-3)
     with pytest.raises(ValueError):
         comb(1,3)
-    with pytest.raises(ValueError):
+    with pytest.raises(TypeError):
         comb(1.5,0.8)
-    with pytest.raises(ValueError):
+    with pytest.raises(TypeError):
         comb(8,"a")
