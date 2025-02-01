@@ -26,3 +26,4 @@ def test_factorial_non_int():
         factorial("string")
     with pytest.raises(TypeError):
         factorial([1, 2, 3])
+        
